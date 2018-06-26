@@ -6,7 +6,7 @@ import 'rxjs/Rx'; // Map
 @Injectable()
 export class PeliculasService {
 
-  private apikey:string = "f4f05ac8c8a3312c0ae38361909a09eb";
+  private apikey:string = "generar Apikey";
   private urlMoviedb:string = "https://api.themoviedb.org/3";
 
   peliculas:any[]=[];
